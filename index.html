@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="todo_card">
+            <div id="todo_title">Todo List ~</div>
+            <div id="todo_add">
+                <div class="todo_input">
+                    <div class="todo_input_text">新建待办事项</div>
+                    <input type="text" id="addValue" autofocus="off">
+                </div>
+                <input id="add_btn" class="todo_btn" type="button" value="添加">
+            </div>
+            <div id="needTodo_title">need to do :</div>
+            <div class="todo_input">
+                <div class="todo_input_text">查找事项</div>
+                <input type="text" id="searchValue" autofocus="off">
+            </div>
+            <div id="todo_list"></div>
+            <input id="deleteAll_btn" class="todo_btn" type="button" value="清除全部事项">
+        </div>
+
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
